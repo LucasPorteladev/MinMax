@@ -177,7 +177,7 @@ Além disso, fica evidente que o desempenho dos algoritmos melhora quando é for
 - **IDE**: Visual Studio Code
 - **SO**: Linux Ubuntu 
 
-#  Conclusao
+#  Conclusão
 
 Afinal, o que podemos concluir?
 
