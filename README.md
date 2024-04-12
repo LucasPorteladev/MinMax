@@ -47,7 +47,7 @@ Para compreender melhor o impacto prático dessas implementações, este trabalh
 
 O comportamento esperado dos algoritmos, tem base na tabela de tempos abaixo:
 
-![tabela](https://github.com/LucasPorteladev/MinMax/assets/112915278/ac4ed20a-7b27-455b-a613-da6960ace983)
+![Captura de tela de 2024-04-08 12-34-05](https://github.com/LucasPorteladev/MinMax/assets/112915278/e6f67e9f-07b1-4551-a416-0e7831d6744b)
 
 Os algoritmos devem respeitar os tempos estabelecidos e explicados em sala de aula.
 
@@ -82,11 +82,13 @@ Após ter os resultados escritos em um arquivo txt, esses resultados foram trans
 
 ## Planilha Tempos - Vetores Aleatorios
 
-![Captura de tela de 2024-04-12 17-08-32](https://github.com/LucasPorteladev/MinMax/assets/112915278/77e11b76-072d-4946-baeb-1df6012f6fd3)
+![PlanilhaAleatorio](https://github.com/LucasPorteladev/MinMax/assets/112915278/4efbb996-2020-48dc-940d-6970c6fb736b)
+
 
 ## Planilha Tempos - Vetor Fixo
 
-![Planilha](https://github.com/LucasPorteladev/MinMax/assets/112915278/fcc7f88c-f2d8-4ec8-a08b-937176abe69c)
+![PlanilhaFixo](https://github.com/LucasPorteladev/MinMax/assets/112915278/8a2866de-3aed-4542-8d55-ae27e0624aa1)
+
 
 Com a ajuda das planilhas as médias dos tempos de execução de cada algoritmo foram encontradas, com os valores obtidos foram criados 6 arquivos (.txt) distintos, para cada teste, sendo eles:
 
@@ -107,30 +109,35 @@ Logo abaixo, estão os gráficos criados:
 
 MinMax1 - Vetor Fixo       |  MinMax1 - Vetores Aleatorios
 :-------------------------:|:-------------------------:
-![outputMinMax1](https://github.com/LucasPorteladev/MinMax/assets/112915278/2b186fc2-3c9f-42cc-9374-39f409061c00) |  ![outputMinMax1](https://github.com/LucasPorteladev/MinMax/assets/112915278/82fbc8ad-a6ea-4c82-8e78-7d0d0faaf5a1)
+![outputMinMax1](https://github.com/LucasPorteladev/MinMax/assets/112915278/79358268-6ab0-41ab-9a4c-0205f657c740)  |  ![outputMinMax1](https://github.com/LucasPorteladev/MinMax/assets/112915278/d177e62b-d571-46a9-a8f9-3addc3245be8)
+
  
 MinMax2 - Vetor Fixo       |  MinMax2 - Vetores Aleatorios
 :-------------------------:|:-------------------------:
-![outputMinMax2](https://github.com/LucasPorteladev/MinMax/assets/112915278/68fb1b40-1978-4874-b9d1-6aa2c3e9db45) |  ![outputMinMax2](https://github.com/LucasPorteladev/MinMax/assets/112915278/0fe9f446-ae7d-4a22-9a86-ad0ceb0a98c9)
+![outputMinMax2](https://github.com/LucasPorteladev/MinMax/assets/112915278/d0bd7a5a-9809-4333-a6ba-8f14a7d98fd8)  |  ![outputMinMax2](https://github.com/LucasPorteladev/MinMax/assets/112915278/c976ca52-089b-469f-9d2c-bc71a72ba309)
 
 
  MinMax3 - Vetor Fixo      |  MinMax3 - Vetores Aleatorios
 :-------------------------:|:-------------------------:
-![outputMinMax3](https://github.com/LucasPorteladev/MinMax/assets/112915278/8d2d6c4a-2db3-475f-9d75-03d47b06127f) |  ![outputMinMax3](https://github.com/LucasPorteladev/MinMax/assets/112915278/102923f8-cc34-48dc-a9e3-13a35e04208d)
+![outputMinMax3](https://github.com/LucasPorteladev/MinMax/assets/112915278/1d4c025b-9c89-45e5-964c-e404a55fa188)  |  ![outputMinMax3](https://github.com/LucasPorteladev/MinMax/assets/112915278/15433a8b-e0e7-4ad5-9af3-e6dcf4d4af00)
+
 
 Aleatorio - Vetor Fixo     |  Aleatorio - Vetores Aleatorios
 :-------------------------:|:-------------------------:
-![outputAleatorio](https://github.com/LucasPorteladev/MinMax/assets/112915278/acd643b9-0853-4ffd-bd16-5081ea25ea56) |  ![outputAleatorio](https://github.com/LucasPorteladev/MinMax/assets/112915278/207f8c44-080d-47b5-ae77-f137d33104d2)
+![outputAleatorio](https://github.com/LucasPorteladev/MinMax/assets/112915278/d087478d-607d-4cf5-932a-6aa818f289ea)  |  ![outputAleatorio](https://github.com/LucasPorteladev/MinMax/assets/112915278/e6bdbf73-88e3-4769-92df-f237cbb5ca7a)
+
 
 
 Crescente - Vetor Fixo     |  Crescente - Vetores Aleatorios
 :-------------------------:|:-------------------------:
-![outputCrescente](https://github.com/LucasPorteladev/MinMax/assets/112915278/8b28d20f-6f75-419a-b479-c450b8e701de) |  ![outputCrescente](https://github.com/LucasPorteladev/MinMax/assets/112915278/d8a4f9c1-dc9a-40bd-8690-bb7c3f33cc94)
+![outputCrescente](https://github.com/LucasPorteladev/MinMax/assets/112915278/0a3fbde3-f29b-4103-86b3-394c640a459d)  |  ![outputCrescente](https://github.com/LucasPorteladev/MinMax/assets/112915278/fb6d919a-907e-42db-82b1-fd4215fc7d11)
+
 
 
 Decrescente - Vetor Fixo   |  Decrescente - Vetores Aleatorios
 :-------------------------:|:-------------------------:
-![outputDecrescente](https://github.com/LucasPorteladev/MinMax/assets/112915278/841762e8-b7ec-44a9-b37f-56c0e2a75f90) |  ![outputDecrescente](https://github.com/LucasPorteladev/MinMax/assets/112915278/1cfcf425-3dc3-43bd-8102-aff4f894a756)
+![outputDecrescente](https://github.com/LucasPorteladev/MinMax/assets/112915278/5527925c-d57e-4cec-8bb0-4c83a7fdd9d9)  |  ![outputDecrescente](https://github.com/LucasPorteladev/MinMax/assets/112915278/b85c8d4f-59ab-47a5-b0fc-ac1847bd78eb)
+
 
 
 ## Análise dos Gráficos
