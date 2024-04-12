@@ -116,7 +116,7 @@ float MinMax::MinMax3(int n, vector<int> Vetor) {
 }
 
 void MinMax::executaMinMax1(int n, vector<int> Vetor) {
-    ofstream arquivo("/home/lucas/Documentos/AEDES/MinMax/results/MinMax1.txt", ios::app);
+    ofstream arquivo("results/MinMax1.txt", ios::app);
 
     if (!arquivo) {
         cerr << "Erro ao abrir o arquivo!" << endl;
@@ -137,7 +137,7 @@ void MinMax::executaMinMax1(int n, vector<int> Vetor) {
 }
 
 void MinMax::executaMinMax2(int n, vector<int> Vetor) {
-    ofstream arquivo("/home/lucas/Documentos/AEDES/MinMax/results/MinMax2.txt", ios::app);
+    ofstream arquivo("results/MinMax2.txt", ios::app);
 
     if (!arquivo) {
         cerr << "Erro ao abrir o arquivo!" << endl;
@@ -157,7 +157,7 @@ void MinMax::executaMinMax2(int n, vector<int> Vetor) {
 }
 
 void MinMax::executaMinMax3(int n, vector<int> Vetor) {
-    ofstream arquivo("/home/lucas/Documentos/AEDES/MinMax/results/MinMax3.txt", ios::app);
+    ofstream arquivo("results/MinMax3.txt", ios::app);
 
     if (!arquivo) {
         cerr << "Erro ao abrir o arquivo!" << endl;
@@ -198,7 +198,7 @@ void MinMax::executar() {
 }
 
 void MinMax::limparArquivo() {
-    ofstream MinMax1("/home/lucas/Documentos/AEDES/MinMax/results/MinMax1.txt", ios::trunc);
+    ofstream MinMax1("results/MinMax1.txt", ios::trunc);
 
     if (!MinMax1) {
         cerr << "Erro ao abrir o arquivo!" << endl;
@@ -207,7 +207,7 @@ void MinMax::limparArquivo() {
 
     MinMax1.close();
 
-    ofstream MinMax2("/home/lucas/Documentos/AEDES/MinMax/results/MinMax2.txt", ios::trunc);
+    ofstream MinMax2("results/MinMax2.txt", ios::trunc);
 
     if (!MinMax2) {
         cerr << "Erro ao abrir o arquivo!" << endl;
@@ -216,7 +216,7 @@ void MinMax::limparArquivo() {
 
     MinMax2.close();
 
-    ofstream MinMax3("/home/lucas/Documentos/AEDES/MinMax/results/MinMax3.txt", ios::trunc);
+    ofstream MinMax3("results/MinMax3.txt", ios::trunc);
 
     if (!MinMax3) {
         cerr << "Erro ao abrir o arquivo!" << endl;
